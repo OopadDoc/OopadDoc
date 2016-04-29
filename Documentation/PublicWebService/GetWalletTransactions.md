@@ -21,7 +21,7 @@
   	- WalletTransactionType
 		`type`: enum WalletTransactionType
 		`description`: possible values { SUBSCRIPTION, BONUS, RELOAD, BET, PRONOSTIC, COMMENT, FEE, EXITFEE, DECAY, CRM, WITHDRAW, DEPOSIT, TRANSFERT, SHOP, COMMISSION, REFER, BID, COMPRESS, TOURNAMENT }
-		see also Type [Wallet](/Types/Wallet.md)
+		see also Type [Wallet](../Types/Wallet.md)
 		
 	- TransactionId
 		`type`: uint?
@@ -64,7 +64,7 @@
 		`description`: Locale of user
 
 	- WalletTransactions
-		`type`: [WalletTransaction](/Types/WalletTransaction.md)[]
+		`type`: [WalletTransaction](../Types/WalletTransaction.md)[]
 		`description`: Requested transactions 
 	
 	- HaveMore
