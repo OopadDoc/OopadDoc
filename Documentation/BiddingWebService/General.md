@@ -6,14 +6,14 @@ base: https://fr.oopad.com/WebServices/BiddingWebService/
 EndPoints
 ---------
 
-- [GetAuction](GetAuction.html) 
-- [GetAuctions](GetAuctions.html)
-- [GetBestBidders](GetBestBidders.html)
-- [GetBestBids](GetBestBids.html)
-- [GetBiddingEverything](GetBiddingEverything.html)
-- [GetBids](GetBids.html)
-- [IsBeginnerBidder](IsBeginnerBidder.html)
-- [PlaceBid](PlaceBid.html)
+- [GetAuction](GetAuction.md) 
+- [GetAuctions](GetAuctions.md)
+- [GetBestBidders](GetBestBidders.md)
+- [GetBestBids](GetBestBids.md)
+- [GetBiddingEverything](GetBiddingEverything.md)
+- [GetBids](GetBids.md)
+- [IsBeginnerBidder](IsBeginnerBidder.md)
+- [PlaceBid](PlaceBid.md)
 
 
 > Written with [StackEdit](https://stackedit.io/).
