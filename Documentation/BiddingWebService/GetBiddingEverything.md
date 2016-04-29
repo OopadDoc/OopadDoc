@@ -39,11 +39,11 @@
 
 	* BidCurrencyId	
 		`type`: uint?
-		`description`: Currency selected by user to buy products. Most likely 10 for "euros". For more information see [Currencies List](/Types/CurrenciesList.md)
+		`description`: Currency selected by user to buy products. Most likely 10 for "euros". For more information see [Currencies List](../Types/CurrenciesList.md)
 
 	* WalletCurrencyId
 		`type`: uint?
-		`desciption`: Currency selected by user to bid. Most likely 1 for "oopad". For more information see [Currencies List](/Types/CurrenciesList.md)
+		`desciption`: Currency selected by user to bid. Most likely 1 for "oopad". For more information see [Currencies List](../Types/CurrenciesList.md)
 
 	* SinceUpdateId
 		`type`: string
@@ -103,19 +103,19 @@ get global information:
    **Code:** 200
    **Content:** 
   * Auctions:
-		`type`: [Auction](/Types/Auction.md)[]
+		`type`: [Auction](../Types/Auction.md)[]
 		`description`: Current auctions informations.
 
 	* Bids: 
-		`type`: [Bid](/Types/Bid.md)[]
+		`type`: [Bid](../Types/Bid.md)[]
 		`description`: Some latest bid on a specific auction. (Specified by auctionId request) //TODO
 
 	* BestBids
-		`type`: [Bid](/Types/Bid.md)[]
+		`type`: [Bid](../Types/Bid.md)[]
 		`description`: Every current bids on every current auctions.
 
 	* BidsCount
-		`type`: [BidCount](/Types/BidCount.md)[]
+		`type`: [BidCount](../Types/BidCount.md)[]
 		`description`: Top best bidders (in quantity, not value) informations
 	
 	* LastUpdateIdWithoutPrepend
