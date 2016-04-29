@@ -37,11 +37,11 @@ Composition
 
 - BidCurrencyId	
 		`type`: uint
-		`description`: Currency selected by user to buy products. Most likely 10 for "euros". For more information see [Currencies List](/Types/CurrenciesList.md). 
+		`description`: Currency selected by user to buy products. Most likely 10 for "euros". For more information see [Currencies List](../Types/CurrenciesList.md). 
 
 - WalletCurrencyId
 		`type`: uint
-		`desciption`: Currency selected by user to bid. Most likely 1 for "oopad". For more information see [Currencies List](/Types/CurrenciesList.md)
+		`desciption`: Currency selected by user to bid. Most likely 1 for "oopad". For more information see [Currencies List](../Types/CurrenciesList.md)
 
 - MaxBidsCount
 	`type`: uint?
@@ -70,12 +70,12 @@ Composition
 - Status
 	`type`: string
 	`description`: Current status of the auction. Possibles values :	 {'INVISIBLE', 'PENDING', 'INPLAY', 'SUSPENDED', 'TERMINATED', 'PAID', 'CANCELED', 'REFUNDED', 'PAID_PARITY' }
-	See [auction status](/Type/AuctionsStatus) for more info.
+	See [auction status](../Type/AuctionsStatus) for more info.
 
 - DateLastBid
 	`type`: DateTime?
 	`description`: Last time the auction received a bid. 
-	You should rather use [GetBestBid](/BIddingWebService/GetBestBid.md) or any query returning a [Bid](/Types/Bid.md) type for up to date informations.
+	You should rather use [GetBestBid](../BIddingWebService/GetBestBid.md) or any query returning a [Bid](/Types/Bid.md) type for up to date informations.
 
 - DateLastBidServerTime
 	`type`: long?
@@ -84,7 +84,7 @@ Composition
 - CurrentWinnerId
 	`type`: uint?
 	`description`: Unique identifier of the current best bidder. 
-	You should rather use [GetBestBidder](/BIddingWebService/GetBestBidder.md) or any query returning a [Bidder](/Types/Bidder.md) type for up to date informations.
+	You should rather use [GetBestBidder](../BIddingWebService/GetBestBidder.md) or any query returning a [Bidder](/Types/Bidder.md) type for up to date informations.
 
 - BidAmountMultiplier
 	`type`: double
@@ -120,7 +120,7 @@ Composition
 
 - WinnerPublicName
 	`type`: string
-	`description`: Current winner's plublic name. Can also be obtain in a [bidder](/Types/Bidder.md) type query.
+	`description`: Current winner's plublic name. Can also be obtain in a [bidder](../Types/Bidder.md) type query.
 
 
 Example
