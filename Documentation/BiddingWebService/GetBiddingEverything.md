@@ -51,7 +51,7 @@
 
 	* SessionKey
 		`type`: string
-		`description`: Identify the user. Use the result from [SignIn](/Types/SignIn.md) to fill this field.
+		`description`: Identify the user. Use the result from [SignIn](/PublicWebService/SignIn.md) to fill this field.
 		 
 	* Locale
 		`type`: string
