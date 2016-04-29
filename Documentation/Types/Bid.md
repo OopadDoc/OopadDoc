@@ -4,7 +4,7 @@ Type Bid
  Note
 ----------------
 
-This object describe a bid set on an auction. The last bid is the winning bid. Auction end when a bid stay at the top for a long enough ([Auction](/Types/Auction.md).BidTime).
+This object describe a bid set on an auction. The last bid is the winning bid. Auction end when a bid stay at the top for a long enough ([Auction](../Types/Auction.md).BidTime).
 
 
 Composition
