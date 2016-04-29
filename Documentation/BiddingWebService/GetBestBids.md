@@ -19,7 +19,7 @@ https://fr.oopad.com/WebServices/BiddingWebService/GetBestBids
 
 	* SessionKey
 		`type`: string
-		`description`: Identify the user. Use the result from [SignIn](/PublicWebService/SignIn.md) to fill this field.
+		`description`: Identify the user. Use the result from [SignIn](../PublicWebService/SignIn.md) to fill this field.
 		 
 	* Locale
 		`type`: string
@@ -33,7 +33,7 @@ https://fr.oopad.com/WebServices/BiddingWebService/GetBestBids
     **Content:** 
 
 	* Bids: 
-		`type`: [Bid](/Types/Bid.md)[]
+		`type`: [Bid](../Types/Bid.md)[]
 		`description`: Every current bids on every current auctions
 
 	* LastUpdateIdWithoutPrepend
