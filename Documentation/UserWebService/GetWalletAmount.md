@@ -1,7 +1,7 @@
 **GetWalletAmount**
 ----
   Get wallet of an authentified user.
-  see also type [Wallet](/Types/Wallet.md)
+  see also type [Wallet](../Types/Wallet.md)
   
 * **URL**
   https://fr.oopad.com/WebServices/UserWebService/GetWalletAmount
