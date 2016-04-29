@@ -17,11 +17,11 @@ none
 		
 	* BidCurrencyId	
 		`type`: uint?
-		`description`: Currency selected by user to buy products. Most likely 10 for "euros". For more information see [Currencies List](/Types/CurrenciesList.md)
+		`description`: Currency selected by user to buy products. Most likely 10 for "euros". For more information see [Currencies List](../Types/CurrenciesList.md)
 
 	* WalletCurrencyId
 		`type`: uint?
-		`desciption`: Currency selected by user to bid. Most likely 1 for "oopad". For more information see [Currencies List](/Types/CurrenciesList.md)
+		`desciption`: Currency selected by user to bid. Most likely 1 for "oopad". For more information see [Currencies List](../Types/CurrenciesList.md)
 
 	* SinceUpdateId
 		`type`: string
@@ -29,7 +29,7 @@ none
 
 	* SessionKey
 		`type`: string
-		`description`: Identify the user. Use the result from [SignIn](/PublicWebService/SignIn.md) to fill this field.
+		`description`: Identify the user. Use the result from [SignIn](../PublicWebService/SignIn.md) to fill this field.
 		 
 	* Locale
 		`type`: string
@@ -44,7 +44,7 @@ none
 	**Content:** 
 	
 	* Bids: 
-		`type`: [Bid](/Types/Bid.md)[]
+		`type`: [Bid](../Types/Bid.md)[]
 		`description`: Some latest bid on a specific auction. (Specified by auctionId request) 
 	
 	* NewSessionKey
